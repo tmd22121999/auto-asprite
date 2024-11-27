@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Ninja
         run: |
-          choco install ninja -y
+          choco install ninja -y --version=1.11.1
 
       - name: Install Python requirements
         run: |
